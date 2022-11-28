@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/all.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="menu">
+        <ul class="row">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#"><i class="fa-solid fa-bars" id="menu_toggle_bar" onclick="menuShow()"></i></a></li>
+        </ul>
+    </nav>
+    <section id="sidebar">
+        <ul>
+            <li><a href="#">item-1</a></li>
+            <li><a href="#">item-2</a></li>
+            <li><a href="#">item-3</a></li>
+            <li><a href="#">item-4</a></li>
+            <li><a href="#">item-5</a></li>
+            <li><a href="#">item-6</a></li>
+            <li><a href="#">item-7</a></li>
+            <li><a href="#">item-8</a></li>
+            <li><a href="#">item-9</a></li>
+            <li><a href="#">item-10</a></li>
+        </ul>
+    </section>
+
+
+    <div id="container">
+        <div id="contact">
+            <form>
+                <div>
+                    <input type="email" name="" id="" placeholder="Enter your email">
+                </div>
+                <div class="password">
+                    <input type="password" id="password" placeholder="Enter your password">
+                    <i class="fas fa-eye-slash" id="password_eye" onclick="passTogole()"></i>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+<script src="js/app.js"></script>    
+</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* form css start*/
+
+#container{
+    width: 350px;
+    margin: auto;
+}
+
+form{
+    padding: 25px;
+}
+
+#contact{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#contact input{
+    width:297px ;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    font-size: 20px;
+}
+
+#contact button{
+    background: yellow;
+    font-size: 30px;
+    color:black;
+    border: none;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+#password{
+    border: none;
+}
+
+.password{
+    display: flex;
+    border: 1px solid black;
+    border-radius:10px ;
+
+    
+} 
+
+.password #password_eye{
+    display: flex;
+    font-size: 20px;
+    color: black;
+    align-items: center;
+}
+/* form css end */
+
+/* sidebar css start */
+#sidebar{
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    background-color:  #131309 ;
+    transform: scale(0 ) skew(30deg);
+    transform-origin: left top;
+    transition: .5s;
+    border-radius: 500px;
+    overflow: hidden;
+}
+#sidebar.active{
+    transform: scale(1) skew(0deg);
+    border-radius: 0;
+    
+}
+#sidebar ul li:hover a{
+    color: aquamarine;
+    background:  #3e3e38;
+}
+#sidebar ul li a{
+    font-size: 20px;
+    color: white;
+    padding: 10px 15px;
+    background:  #131309 ;
+    display: block;
+    transition: .5s;
+}
+/* sidebar css end */
+
+
+#menu  {
+    background: skyblue;
+}
+
+#menu li i{
+    color: white;
+}
+
+#menu ul li{
+    background: skyblue;
+}
+
+#menu li a{
+    color: white;
+    font-size: 25px;
+    padding: 15px 25px;
+}
